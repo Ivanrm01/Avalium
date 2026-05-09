@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: TU_USUARIO/TU_REPO
+  repo: Ivanrm01/Avalium
   branch: main
-  base_url: https://TU_DOMINIO_VERCEL.vercel.app
+  base_url: https://www.avalium.es
   auth_endpoint: api/auth
 
 # Carpeta donde se subirán las imágenes que arrastres al editor
