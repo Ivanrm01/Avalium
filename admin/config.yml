@@ -1,0 +1,49 @@
+backend:
+  name: github
+  repo: TU_USUARIO/TU_REPO
+  branch: main
+  base_url: https://TU_DOMINIO_VERCEL.vercel.app
+  auth_endpoint: api/auth
+
+# Carpeta donde se subirán las imágenes que arrastres al editor
+media_folder: "assets/blog"
+public_folder: "/assets/blog"
+
+# Idioma del panel
+locale: 'es'
+
+# Estructura del contenido editable
+collections:
+  - name: "blog"
+    label: "Artículos del blog"
+    label_singular: "artículo"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date | date('DD/MM/YYYY')}}"
+    sortable_fields: ['date', 'title']
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Categoría", name: "tag", widget: "select", options: ["Hipoteca unilateral", "Procedimiento", "Aplazamientos", "Recursos", "Derivaciones", "Societario", "Suspensión AEAT", "Ampliación de capital"] }
+      - { label: "Fecha de publicación", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, picker_utc: false }
+      - { label: "Tiempo de lectura", name: "reading_time", widget: "string", default: "8 min", hint: "Ejemplo: 8 min" }
+      - { label: "Resumen para el índice del blog", name: "summary", widget: "text", required: false, hint: "Frase corta (1-2 líneas) que aparece en la tarjeta del artículo en /blog. Si la dejas vacía, se usará el lede." }
+      - { label: "Resumen (lede)", name: "lede", widget: "text", hint: "Frase introductoria que aparece en grande al principio del artículo" }
+      - label: "¿Es el artículo destacado?"
+        name: "featured"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Si lo marcas, aparecerá en grande en la parte superior del blog. Solo puede haber un destacado a la vez — el sistema usará el primero que encuentre marcado."
+      - { label: "Frase destacada (cita visual del destacado)", name: "featured_quote", widget: "string", required: false, hint: "Solo si marcas el artículo como destacado. Aparece como cita en el bloque visual de la izquierda. Ejemplo: \"La pregunta no es si tu banco te dará el aval. Es a qué precio.\"" }
+      - { label: "Contenido del artículo", name: "body", widget: "markdown" }
+      - label: "Artículos relacionados (al final)"
+        name: "related"
+        widget: "list"
+        max: 3
+        required: false
+        fields:
+          - { label: "Slug del artículo (sin .html)", name: "slug", widget: "string" }
+          - { label: "Título a mostrar", name: "title", widget: "string" }
+          - { label: "Categoría", name: "tag", widget: "string" }
+          - { label: "Tiempo lectura", name: "mins", widget: "string", default: "8 min" }
