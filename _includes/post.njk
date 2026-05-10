@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }} | Avalium Consulting Group</title>
+<meta name="description" content="{{ lede | striptags | truncate(155) }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..700,30..100&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<style>
+.article-meta { display: flex; gap: 1.5rem; font-size: 0.85rem; color: var(--muted); padding: 1.25rem 0; border-bottom: 1px solid var(--line); margin-bottom: 2.5rem; }
+.article-meta strong { color: var(--navy); }
+.related-articles { background: var(--cream-deep); padding: clamp(2.5rem, 5vw, 4rem) 0; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container top-bar-inner">
+    <div class="top-bar-contact">
+      <a href="tel:+34900000000"><span>T.</span> +34 900 000 000</a>
+      <a href="mailto:contacto@avalium.es"><span>E.</span> contacto@avalium.es</a>
+    </div>
+    <div class="lang-switch">ES · EN</div>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/index.html" class="logo"><img src="/assets/logo.png" alt="Avalium Consulting Group"></a>
+    <nav><ul class="nav-links">
+      <li><a href="/suspension-deudas-aeat.html">Suspensión AEAT</a></li>
+      <li><a href="/aplazamiento-fraccionamiento-aeat.html">Aplazamientos</a></li>
+      <li><a href="/ampliacion-capital-garantia-inmobiliaria.html">Ampliación capital</a></li>
+      <li><a href="/hipoteca-unilateral.html">Hipoteca unilateral</a></li>
+      <li><a href="/casos-de-exito.html">Casos</a></li>
+      <li><a href="/equipo.html">Equipo</a></li>
+      <li><a href="/blog.html" class="active">Blog</a></li>
+    </ul></nav>
+    <a href="/contacto.html" class="btn btn-primary btn-sm">Contacto <span class="arrow">→</span></a>
+    <button class="menu-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container-narrow">
+    <div class="breadcrumb"><a href="/index.html">Inicio</a><span>/</span><a href="/blog.html">Blog</a><span>/</span><span>{{ tag }}</span></div>
+    <span class="eyebrow">— {{ tag }}</span>
+    <h1 style="margin-top: 1rem;">{{ title }}</h1>
+    <p class="lede" style="margin-top: 1.5rem;">{{ lede | safe }}</p>
+    <div class="article-meta">
+      <span><strong>Lectura:</strong> {{ reading_time }}</span>
+      <span><strong>Publicado:</strong> {{ date | dateFormat }}</span>
+      <span><strong>Por:</strong> Equipo Avalium</span>
+    </div>
+  </div>
+</section>
+
+<article class="section">
+  <div class="container-narrow article-body">
+    {{ content | safe }}
+  </div>
+</article>
+
+{% if related and related.length > 0 %}
+<section class="related-articles">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">— Seguir leyendo</span></div>
+      <h2>Artículos <em>relacionados</em>.</h2>
+    </div>
+    <div class="cards-grid" style="grid-template-columns: repeat({{ related.length }}, 1fr);">
+      {% for r in related %}
+      <a href="/blog/{{ r.slug }}.html" style="text-decoration: none; color: inherit;">
+        <article class="card">
+          <span class="card-tag">— {{ r.tag }}</span>
+          <h3>{{ r.title }}</h3>
+          <div class="card-meta"><span>Lectura · {{ r.mins }}</span><span>Avalium</span></div>
+        </article>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="cta-band">
+  <div class="container">
+    <div style="text-align: center;">
+      <span class="eyebrow" style="color: var(--brass);">— Análisis confidencial</span>
+      <h2 style="margin-top: 1.5rem; color: var(--cream);">¿Tu caso encaja con<br>lo que has <em style="color: var(--brass);">leído</em>?</h2>
+      <p class="lede" style="color: rgba(245, 239, 227, 0.8); margin: 1.5rem auto 2.5rem; max-width: 50ch;">Solicita un análisis confidencial sin compromiso. Te respondemos en 48 horas.</p>
+      <a href="/contacto.html" class="btn">Iniciar análisis confidencial <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="/index.html" class="logo"><img src="/assets/logo-cream.png" alt="Avalium Consulting Group"></a><p>Soluciones de garantía inmobiliaria para deudas tributarias y operaciones societarias en sociedades limitadas.</p></div>
+      <div><h5>Servicios</h5><ul><li><a href="/suspension-deudas-aeat.html">Suspensión AEAT</a></li><li><a href="/aplazamiento-fraccionamiento-aeat.html">Aplazamientos</a></li><li><a href="/ampliacion-capital-garantia-inmobiliaria.html">Ampliación de capital</a></li><li><a href="/hipoteca-unilateral.html">Hipoteca unilateral</a></li></ul></div>
+      <div><h5>Empresa</h5><ul><li><a href="/sobre-nosotros.html">Sobre nosotros</a></li><li><a href="/equipo.html">Equipo</a></li><li><a href="/casos-de-exito.html">Casos de éxito</a></li><li><a href="/blog.html">Blog</a></li></ul></div>
+      <div><h5>Contacto</h5><ul><li>Madrid · Castellón</li><li><a href="tel:+34900000000">+34 900 000 000</a></li><li><a href="mailto:contacto@avalium.es">contacto@avalium.es</a></li><li><a href="/contacto.html">Solicitar reunión</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Avalium Consulting Group, S.L.</span><div class="footer-bottom-links"><a href="/legal/aviso-legal.html">Aviso legal</a><a href="/legal/privacidad.html">Privacidad</a><a href="/legal/cookies.html">Cookies</a></div></div>
+  </div>
+</footer>
+
+<script src="/assets/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+---
+permalink: /blog.html
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Avalium Consulting Group</title>
+<meta name="description" content="Análisis técnicos sobre suspensión AEAT, aplazamientos, hipoteca unilateral y operaciones societarias. Publicaciones de Avalium Consulting Group.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..700,30..100&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<style>
+.featured { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); padding: 3rem 0; border-bottom: 1px solid var(--line-strong); align-items: center; }
+@media (max-width: 760px) { .featured { grid-template-columns: 1fr; } }
+.featured-visual { aspect-ratio: 4/3; background: linear-gradient(135deg, var(--navy), var(--navy-soft)); position: relative; display: flex; align-items: center; justify-content: center; padding: 3rem; }
+.featured-visual::after { content: ''; position: absolute; inset: 12px; border: 1px solid rgba(184, 137, 92, 0.3); }
+.featured-quote { font-family: var(--font-display); font-size: clamp(1.4rem, 2.2vw, 2.2rem); color: var(--cream); font-style: italic; text-align: center; line-height: 1.25; font-variation-settings: "opsz" 144, "SOFT" 100; font-weight: 300; }
+.featured-tag { font-family: var(--font-display); font-style: italic; color: var(--terracotta); font-size: 0.95rem; margin-bottom: 1rem; display: inline-block; }
+.featured h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: 1.25rem; }
+.filter-bar { display: flex; gap: 1.5rem; flex-wrap: wrap; padding: 1.5rem 0 2.5rem; border-bottom: 1px solid var(--line); margin-bottom: 3rem; }
+.filter-bar button { font-family: var(--font-body); font-size: 0.85rem; color: var(--muted); padding: 0.4rem 0.85rem; transition: color 0.2s; border-radius: 2px; cursor: pointer; border: none; background: none; }
+.filter-bar button.active, .filter-bar button:hover { color: var(--terracotta); background: var(--cream-deep); }
+.card { transition: opacity 0.3s ease; }
+.card.hidden { display: none; }
+.empty-state { padding: 4rem 0; text-align: center; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container top-bar-inner">
+    <div class="top-bar-contact">
+      <a href="tel:+34900000000"><span>T.</span> +34 900 000 000</a>
+      <a href="mailto:contacto@avalium.es"><span>E.</span> contacto@avalium.es</a>
+    </div>
+    <div class="lang-switch">ES · EN</div>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/index.html" class="logo"><img src="/assets/logo.png" alt="Avalium Consulting Group"></a>
+    <nav><ul class="nav-links">
+      <li><a href="/suspension-deudas-aeat.html">Suspensión AEAT</a></li>
+      <li><a href="/aplazamiento-fraccionamiento-aeat.html">Aplazamientos</a></li>
+      <li><a href="/ampliacion-capital-garantia-inmobiliaria.html">Ampliación capital</a></li>
+      <li><a href="/hipoteca-unilateral.html">Hipoteca unilateral</a></li>
+      <li><a href="/casos-de-exito.html">Casos</a></li>
+      <li><a href="/equipo.html">Equipo</a></li>
+      <li><a href="/blog.html" class="active">Blog</a></li>
+    </ul></nav>
+    <a href="/contacto.html" class="btn btn-primary btn-sm">Contacto <span class="arrow">→</span></a>
+    <button class="menu-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/index.html">Inicio</a><span>/</span><span>Blog</span></div>
+    <div class="page-hero-grid">
+      <div class="reveal">
+        <span class="eyebrow">— Análisis y publicaciones</span>
+        <h1 style="margin-top: 1.25rem;">Notas técnicas sobre <em>derecho tributario</em> aplicado.</h1>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <p class="lede">Análisis prácticos, no académicos. Cada artículo nace de un caso real, una duda repetida o un cambio normativo que afecta a empresas con patrimonio inmobiliario y exposición fiscal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container">
+
+    {# Buscar artículo destacado: el primero con featured=true, o el más reciente si ninguno está marcado #}
+    {%- set featuredPost = collections.posts | featuredPost -%}
+
+    {%- if featuredPost -%}
+    <article class="featured reveal">
+      <a href="{{ featuredPost.url }}" class="featured-visual">
+        {%- if featuredPost.data.featured_quote -%}
+        <p class="featured-quote">{{ featuredPost.data.featured_quote | safe }}</p>
+        {%- else -%}
+        <p class="featured-quote">"{{ featuredPost.data.title }}"</p>
+        {%- endif -%}
+      </a>
+      <div>
+        <span class="featured-tag">— Destacado · {{ featuredPost.data.tag }}</span>
+        <h2><a href="{{ featuredPost.url }}">{{ featuredPost.data.title }}</a></h2>
+        <p style="color: var(--navy-soft); margin-bottom: 1.5rem;">{{ featuredPost.data.summary or featuredPost.data.lede | striptags }}</p>
+        <div style="display: flex; gap: 1.5rem; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+          <span>Equipo Avalium</span><span>·</span><span>{{ featuredPost.data.reading_time }} lectura</span><span>·</span><span>{{ featuredPost.data.date | dateFormat }}</span>
+        </div>
+        <a href="{{ featuredPost.url }}" class="btn btn-ghost">Leer artículo <span class="arrow">→</span></a>
+      </div>
+    </article>
+    {%- endif -%}
+
+    {# Calcular categorías únicas para el filtro #}
+    {%- set tags = collections.posts | uniqueTags -%}
+
+    <div class="filter-bar reveal">
+      <button class="active" data-filter="all">Todos</button>
+      {%- for tag in tags -%}
+      <button data-filter="{{ tag }}">{{ tag }}</button>
+      {%- endfor -%}
+    </div>
+
+    {%- if collections.posts.length == 0 -%}
+    <div class="empty-state">
+      <p>Aún no hay artículos publicados.</p>
+    </div>
+    {%- else -%}
+    <div class="cards-grid" id="posts-grid">
+      {%- for post in collections.posts | withoutFeatured -%}
+        <a href="{{ post.url }}" class="card reveal" data-category="{{ post.data.tag }}">
+          <span class="card-tag">— {{ post.data.tag }}</span>
+          <h3>{{ post.data.title }}</h3>
+          <p>{{ post.data.summary or post.data.lede | striptags | truncate(160) }}</p>
+          <div class="card-meta"><span>{{ post.data.reading_time }}</span><span>{{ post.data.date | dateFormat }}</span></div>
+        </a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    <div style="margin-top: 4rem; text-align: center;" class="reveal">
+      <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 1.25rem;">¿Quieres recibir el próximo análisis directamente en tu email?</p>
+      <a href="/contacto.html" class="btn btn-ghost">Suscribirse a la newsletter <span class="arrow">→</span></a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="/index.html" class="logo"><img src="/assets/logo-cream.png" alt="Avalium Consulting Group"></a><p>Soluciones de garantía inmobiliaria para deudas tributarias y operaciones societarias en sociedades limitadas.</p></div>
+      <div><h5>Servicios</h5><ul><li><a href="/suspension-deudas-aeat.html">Suspensión AEAT</a></li><li><a href="/aplazamiento-fraccionamiento-aeat.html">Aplazamientos</a></li><li><a href="/ampliacion-capital-garantia-inmobiliaria.html">Ampliación de capital</a></li><li><a href="/hipoteca-unilateral.html">Hipoteca unilateral</a></li></ul></div>
+      <div><h5>Empresa</h5><ul><li><a href="/sobre-nosotros.html">Sobre nosotros</a></li><li><a href="/equipo.html">Equipo</a></li><li><a href="/casos-de-exito.html">Casos de éxito</a></li><li><a href="/blog.html">Blog</a></li></ul></div>
+      <div><h5>Contacto</h5><ul><li>Madrid · Castellón</li><li><a href="tel:+34900000000">+34 900 000 000</a></li><li><a href="mailto:contacto@avalium.es">contacto@avalium.es</a></li><li><a href="/contacto.html">Solicitar reunión</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Avalium Consulting Group, S.L.</span><div class="footer-bottom-links"><a href="/legal/aviso-legal.html">Aviso legal</a><a href="/legal/privacidad.html">Privacidad</a><a href="/legal/cookies.html">Cookies</a></div></div>
+  </div>
+</footer>
+
+<script>
+// Filtrado por categoría
+const filterBtns = document.querySelectorAll('.filter-bar button');
+const cards = document.querySelectorAll('#posts-grid .card');
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const filter = btn.dataset.filter;
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    cards.forEach(card => {
+      if (filter === 'all' || card.dataset.category === filter) {
+        card.classList.remove('hidden');
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+  });
+});
+
+// Animación reveal al hacer scroll
+const reveals = document.querySelectorAll('.reveal');
+if (reveals.length) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+  reveals.forEach(el => observer.observe(el));
+}
+</script>
+<script src="/assets/menu.js"></script>
+</body>
+</html>
