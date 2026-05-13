@@ -163,7 +163,7 @@ p { font-size: 1rem; line-height: 1.7; color: var(--ink); }
 /* Nav */
 .nav { position: sticky; top: 0; z-index: 50; background: var(--cream); border-bottom: 1px solid var(--line); backdrop-filter: blur(8px); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 0; gap: 2rem; }
-.logo { display: flex; align-items: center; height: 48px; transition: opacity 0.2s; }
+.logo { display: flex; align-items: center; height: 70px; transition: opacity 0.2s; }
 .logo img { height: 100%; width: auto; display: block; }
 .logo:hover { opacity: 0.85; }
 .nav-links { display: flex; gap: 2rem; list-style: none; }
