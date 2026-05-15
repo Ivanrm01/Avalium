@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Ivanrm01/avalium
+  repo: Ivanrm01/Avalium
   branch: main
   base_url: https://www.avalium.es
   auth_endpoint: api/auth
