@@ -3,5 +3,10 @@
   "outputDirectory": "_site",
   "framework": null,
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/", "destination": "/admin/index.html" },
+    { "source": "/admin/config.yml", "destination": "/admin/config.yml" }
+  ]
 }
