@@ -20,15 +20,14 @@ related:
     tag: Societario
     mins: 14 min
 ---
-
 ## Los plazos críticos tras la denegación
 
 Cuando recibes la notificación de denegación, se abren dos relojes:
 
-  1. **Plazo de recurso** : 1 mes para recurso de reposición ante el propio órgano, o el plazo correspondiente para reclamación económico-administrativa ante el TEAR.
-  2. **Plazo de pago** : si la deuda estaba en período voluntario y la denegación llega después, suele abrirse un nuevo plazo de pago de 1 mes (Art. 62 LGT).
+1. **Plazo de recurso** : 1 mes para recurso de reposición ante el propio órgano, o el plazo correspondiente para reclamación económico-administrativa ante el TEAR.
+2. **Plazo de pago** : si la deuda estaba en período voluntario y la denegación llega después, suele abrirse un nuevo plazo de pago (Art. 62 LGT).
 
-El segundo reloj es el peligroso: si no se recurre _y_ no se ingresa, la deuda pasa a período ejecutivo y se generan recargos del 5 %, 10 % o 20 %.
+El segundo reloj es el peligroso: si no se recurre *y* no se ingresa, la deuda pasa a período ejecutivo y se generan recargos del 5 %, 10 % o 20 %.
 
 ## Las cuatro causas más frecuentes de denegación
 
@@ -54,11 +53,11 @@ Plazo: 1 mes desde la notificación. Órgano: la propia dependencia que denegó.
 
 Estructura del recurso:
 
-  1. Identificación del acto recurrido y de la situación tributaria.
-  2. Hechos relevantes: cronología de la solicitud original.
-  3. Fundamentos de derecho: artículos LGT y RGR aplicables.
-  4. Subsanación del defecto que motivó la denegación: tasación mejorada, cartas bancarias, documentación complementaria.
-  5. Petición: revocación de la denegación y concesión del aplazamiento.
+1. Identificación del acto recurrido y de la situación tributaria.
+2. Hechos relevantes: cronología de la solicitud original.
+3. Fundamentos de derecho: artículos LGT y RGR aplicables.
+4. Subsanación del defecto que motivó la denegación: tasación mejorada, cartas bancarias, documentación complementaria.
+5. Petición: revocación de la denegación y concesión del aplazamiento.
 
 El recurso de reposición es potestativo. Si lo desestiman, queda abierta la vía económico-administrativa.
 
@@ -68,22 +67,22 @@ Si el recurso de reposición fracasa o se opta directamente por esta vía, se ac
 
 El TEAR resuelve sobre la base del expediente administrativo y los documentos aportados. La resolución puede:
 
-  * Estimar plenamente: revoca la denegación y concede el aplazamiento.
-  * Estimar parcialmente: ordena reabrir el expediente para subsanar.
-  * Desestimar: confirma la denegación. Cabe recurso ante la Audiencia Nacional o vía contencioso-administrativa.
+* Estimar plenamente: revoca la denegación y concede el aplazamiento.
+* Estimar parcialmente: ordena reabrir el expediente para subsanar.
+* Desestimar: confirma la denegación. Cabe recurso ante la Audiencia Nacional o vía contencioso-administrativa.
 
 ## ¿Recurrir o presentar una nueva solicitud?
 
 En ocasiones es preferible presentar una nueva solicitud subsanada en vez de recurrir. Las ventajas:
 
-  * Resolución más rápida (3-6 meses vs 12-24 meses del TEAR).
-  * Permite mejorar significativamente la propuesta.
-  * No genera "antecedentes negativos" en el expediente del contribuyente.
+* Resolución más rápida (3-6 meses vs 12-24 meses del TEAR).
+* Permite mejorar significativamente la propuesta.
+* No genera "antecedentes negativos" en el expediente del contribuyente.
 
 Las desventajas:
 
-  * Si la deuda está en período ejecutivo, los recargos siguen devengándose mientras se prepara la nueva solicitud.
-  * Una segunda denegación cierra prácticamente el margen de maniobra.
+* Si la deuda está en período ejecutivo, los recargos siguen devengándose mientras se prepara la nueva solicitud.
+* Una segunda denegación cierra prácticamente el margen de maniobra.
 
 El criterio práctico: si la denegación se basa en defectos subsanables (garantía, documentación), nueva solicitud bien preparada. Si se basa en interpretaciones jurídicas discutibles (umbral, tipología de deuda), recurso.
 
