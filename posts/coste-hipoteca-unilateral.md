@@ -52,7 +52,7 @@ Puede exigir contragarantía (pignoración/deposito) y consume capacidad de cré
 
 ## Cómo reducir el coste sin comprometer la operación
 
-Cuatro vías legítimas:
+Tres vías legítimas:
 
 * **Ajustar el importe garantizado** : la garantía debe cubrir principal + recargos + intereses futuros, pero no más. 
 * **Usar inmuebles libres de cargas** (evita gastos adicionales de cancelación o coordinación).
