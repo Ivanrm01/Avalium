@@ -14,11 +14,6 @@ related:
     title: "Aplazamiento denegado: cómo recurrir y reformular la solicitud"
     tag: Recursos
     mins: 10 min
-  - slug: derivacion-responsabilidad-42-lgt
-    title: "Derivaciones de responsabilidad del Art. 42 LGT: qué hacer si te llega
-      una"
-    tag: Derivaciones
-    mins: 11 min
 ---
 ## La regla general y su umbral
 
