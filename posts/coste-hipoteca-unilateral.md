@@ -44,9 +44,9 @@ related:
 
 Comisiones habituales: estudio/apertura + comisión por riesgo mientras el aval esté en vigor. Estudio 2% + formalización 2% + riesgo 1% por trimestre.
 
-Coste 1er año (500.000 €): ~25.000 € (20.000 € inicial + 5.000 € recurrente).
+Coste 1er año (500.000 €): ~**25.000 €** (20.000 € inicial + 5.000 € recurrente).
 
-Años sucesivos: ~5.000 €/año si continúa el aval.
+Años sucesivos: ~**5.000 €/año** si continúa el aval.
 
 Puede exigir contragarantía (pignoración/deposito) y consume capacidad de crédito (CIRBE).
 
