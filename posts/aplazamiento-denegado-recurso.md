@@ -9,16 +9,11 @@ lede: Una denegación de aplazamiento no es el final del camino. Es el momento d
   analizar el motivo, subsanar el defecto y, si procede, recurrir. Hoja de ruta
   práctica.
 related:
-  - slug: derivacion-responsabilidad-42-lgt
-    title: "Derivaciones de responsabilidad del Art. 42 LGT: qué hacer si te llega
-      una"
-    tag: Derivaciones
-    mins: 11 min
-  - slug: ampliacion-capital-aportacion-no-dineraria
-    title: "Ampliación de capital con aportación no dineraria de inmuebles: guía
-      técnica"
-    tag: Societario
-    mins: 14 min
+  - slug: aplazamiento-aeat-mas-de-50000
+    title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
+      no es la única vía"
+    tag: Aplazamientos
+    mins: 8 min
 ---
 ## Los plazos críticos tras la denegación
 
@@ -33,11 +28,11 @@ El segundo reloj es el peligroso: si no se recurre *y* no se ingresa, la deuda p
 
 ### Causa 1 · Garantía insuficiente o no constituida
 
-La razón más habitual. Suele resolverse mejorando la tasación, ampliando garantía con un segundo inmueble, o sustituyendo el inmueble propuesto por otro con mejor margen.
+La razón más habitual. Suele resolverse mejorando la tasación, ampliando garantía con un segundo inmueble, o sustituyendo el inmueble propuesto por otro.
 
 ### Causa 2 · Falta de justificación de imposibilidad de aval bancario
 
-Cuando se aporta una garantía distinta del aval bancario sin acreditar suficientemente que el banco no concede o sus condiciones son onerosas. Resolución: aportar al recurso 2-3 cartas bancarias de denegación.
+Cuando se aporta una garantía distinta del aval bancario sin acreditar suficientemente que el banco no concede. Resolución: aportar al recurso 2-3 cartas bancarias de denegación.
 
 ### Causa 3 · Incumplimiento previo de aplazamientos
 
@@ -45,7 +40,7 @@ Si en los últimos 12 meses se incumplió un aplazamiento, la nueva solicitud pa
 
 ### Causa 4 · Tipología de deuda excluida
 
-Retenciones e ingresos a cuenta no son aplazables salvo excepciones. Aquí el recurso suele tener pocas opciones — la salida es renegociar el plan de pagos por otra vía.
+Retenciones e ingresos a cuenta no son aplazables. Aquí el recurso tiene pocas opciones.
 
 ## Recurso de reposición: cuándo y cómo
 
@@ -69,7 +64,7 @@ El TEAR resuelve sobre la base del expediente administrativo y los documentos ap
 
 * Estimar plenamente: revoca la denegación y concede el aplazamiento.
 * Estimar parcialmente: ordena reabrir el expediente para subsanar.
-* Desestimar: confirma la denegación. Cabe recurso ante la Audiencia Nacional o vía contencioso-administrativa.
+* Desestimar: confirma la denegación. Cabe recurso en vía contencioso-administrativa.
 
 ## ¿Recurrir o presentar una nueva solicitud?
 
