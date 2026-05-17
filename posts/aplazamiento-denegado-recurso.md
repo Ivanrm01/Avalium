@@ -1,19 +1,24 @@
 ---
-title: "Aplazamiento denegado: cómo recurrir y reformular la solicitud"
-tag: "Recursos"
+title: "Aplazamiento denegado: cómo recurrir"
+tag: Recursos
 date: 2026-02-19
-reading_time: "10 min"
-lede: "Una denegación de aplazamiento no es el final del camino. Es el momento de analizar el motivo, subsanar el defecto y, si procede, recurrir. Hoja de ruta práctica."
-summary: "Las cuatro causas más frecuentes de denegación y la estrategia de recurso que mejor funciona ante cada una."
+reading_time: 10 min
+summary: Las cuatro causas más frecuentes de denegación y la estrategia de
+  recurso que mejor funciona ante cada una.
+lede: Una denegación de aplazamiento no es el final del camino. Es el momento de
+  analizar el motivo, subsanar el defecto y, si procede, recurrir. Hoja de ruta
+  práctica.
 related:
-  - slug: "derivacion-responsabilidad-42-lgt"
-    title: "Derivaciones de responsabilidad del Art. 42 LGT: qué hacer si te llega una"
-    tag: "Derivaciones"
-    mins: "11 min"
-  - slug: "ampliacion-capital-aportacion-no-dineraria"
-    title: "Ampliación de capital con aportación no dineraria de inmuebles: guía técnica"
-    tag: "Societario"
-    mins: "14 min"
+  - slug: derivacion-responsabilidad-42-lgt
+    title: "Derivaciones de responsabilidad del Art. 42 LGT: qué hacer si te llega
+      una"
+    tag: Derivaciones
+    mins: 11 min
+  - slug: ampliacion-capital-aportacion-no-dineraria
+    title: "Ampliación de capital con aportación no dineraria de inmuebles: guía
+      técnica"
+    tag: Societario
+    mins: 14 min
 ---
 
 ## Los plazos críticos tras la denegación
