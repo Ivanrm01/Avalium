@@ -1,21 +1,29 @@
 ---
-title: "Hipoteca unilateral vs aval bancario: comparativa real para empresas con deuda fiscal"
-tag: "Hipoteca unilateral"
+title: "Hipoteca unilateral vs aval bancario: comparativa real para empresas con
+  deuda fiscal"
+tag: Hipoteca unilateral
 date: 2026-01-15
-reading_time: "9 min"
-lede: "Cuando una sociedad necesita garantizar una deuda con la AEAT por encima del umbral de 50.000 €, la pregunta clave no es <em>si</em> aportar garantía, sino <em>qué</em> garantía aportar. Comparativa honesta entre las dos vías reales."
-summary: "Comparativa real de costes, plazos, requisitos y disponibilidad entre el aval bancario tradicional y la hipoteca unilateral en operaciones de garantía AEAT. Datos de mercado contrastados."
+reading_time: 9 min
+summary: Comparativa real de costes, plazos, requisitos y disponibilidad entre
+  el aval bancario tradicional y la hipoteca unilateral en operaciones de
+  garantía AEAT. Datos de mercado contrastados.
+lede: Cuando una sociedad necesita garantizar una deuda con la AEAT por encima
+  del umbral de 50.000 €, la pregunta clave no es <em>si</em> aportar garantía,
+  sino <em>qué</em> garantía aportar. Comparativa honesta entre las dos vías
+  reales.
 featured: true
-featured_quote: "\"La pregunta no es si tu banco te dará el aval. Es <em>a qué precio</em> y a costa de qué.\""
+featured_quote: '"La pregunta no es si tu banco te dará el aval. Es <em>a qué precio</em>."'
 related:
-  - slug: "articulo-233-lgt-suspension-deudas"
-    title: "El artículo 233 LGT explicado: cuándo y cómo suspender una deuda con la AEAT"
-    tag: "Procedimiento"
-    mins: "12 min"
-  - slug: "aplazamiento-aeat-mas-de-30000"
-    title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya no es la única vía"
-    tag: "Aplazamientos"
-    mins: "8 min"
+  - slug: articulo-233-lgt-suspension-deudas
+    title: "El artículo 233 LGT explicado: cuándo y cómo suspender una deuda con la
+      AEAT"
+    tag: Procedimiento
+    mins: 12 min
+  - slug: aplazamiento-aeat-mas-de-30000
+    title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
+      no es la única vía"
+    tag: Aplazamientos
+    mins: 8 min
 ---
 
 ## El punto de partida: cuándo necesitamos garantía
