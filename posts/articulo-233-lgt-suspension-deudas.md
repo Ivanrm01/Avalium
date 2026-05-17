@@ -1,19 +1,22 @@
 ---
 title: "El artículo 233 LGT explicado: cuándo y cómo suspender una deuda con la AEAT"
-tag: "Procedimiento"
+tag: Suspensión AEAT
 date: 2026-01-22
-reading_time: "12 min"
-lede: "El precepto que separa una empresa viable de una empresa embargada. Análisis práctico del régimen de suspensión en vía económico-administrativa."
-summary: "Cuándo procede la suspensión, qué garantías admite la AEAT y los errores frecuentes que la convierten en denegación."
+reading_time: 12 min
+summary: Cuándo procede la suspensión, qué garantías admite la AEAT y los
+  errores frecuentes que la convierten en denegación.
+lede: El precepto que separa una empresa viable de una empresa embargada.
+  Análisis práctico del régimen de suspensión en vía económico-administrativa.
 related:
-  - slug: "aplazamiento-aeat-mas-de-30000"
-    title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya no es la única vía"
-    tag: "Aplazamientos"
-    mins: "8 min"
-  - slug: "aplazamiento-denegado-recurso"
+  - slug: aplazamiento-aeat-mas-de-30000
+    title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
+      no es la única vía"
+    tag: Aplazamientos
+    mins: 8 min
+  - slug: aplazamiento-denegado-recurso
     title: "Aplazamiento denegado: cómo recurrir y reformular la solicitud"
-    tag: "Recursos"
-    mins: "10 min"
+    tag: Recursos
+    mins: 10 min
 ---
 
 ## Lo que dice el artículo 233 LGT (síntesis)
