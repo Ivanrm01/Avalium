@@ -48,9 +48,7 @@ Solicitud de aplazamiento por importe que exige garantía. Lista de documentos:
 
 Los plazos máximos son los que se indican a continuación:
 
-* * **60 meses:**
-
-     si el obligado al pago aporta como garantía aval bancario o certificado de seguro de caución.
+* **60 meses:** si el obligado al pago aporta como garantía aval bancario o certificado de seguro de caución.
 * **36 meses:** si el obligado al pago aporta como garantía bienes inmuebles de naturaleza urbana libres de cargas.
 * **24 meses:** si el obligado al pago aporta otras garantías o en el caso de aplazamiento de deudas por personas físicas.
 * **12 meses:** en los supuestos de dispensa total o parcial de garantías.
