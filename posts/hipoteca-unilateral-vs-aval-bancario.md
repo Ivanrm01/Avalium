@@ -48,8 +48,6 @@ Tomemos cuatro operaciones reales con importes representativos y plazos típicos
   Coste 2º año (100.000 €): ~**1.250 €**
 * Hipoteca unilateral: **1.500 € coste único**. Sin comisión recurrente.
 
-Diferencia: aproximadamente equivalente. Aquí el factor decisivo es la *disponibilidad* : ¿el banco te concede el aval o no?
-
 ### Escenario B · Aplazamiento de 500.000 € a 36 meses
 
 * Aval bancario: 4.000 € × 3 años = **12.000 €**. Más apertura: 600-1.200 €.
