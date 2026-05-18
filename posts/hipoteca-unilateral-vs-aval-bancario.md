@@ -50,10 +50,17 @@ Tomemos cuatro operaciones reales con importes representativos y plazos típicos
 
 ### Escenario B · Aplazamiento de 500.000 € a 36 meses
 
-* Aval bancario: 4.000 € × 3 años = **12.000 €**. Más apertura: 600-1.200 €.
-* Hipoteca unilateral: **7.500 € coste único**.
+* * Aval bancario: **28.750 €**
 
-Ahorro: 5.000-6.000 € a favor de la hipoteca unilateral.
+    Coste 1er año (500.000 €): ~**16.250 €** (10.000 € inicial + 6.250 € recurrente).
+
+    Coste 2º año (500.000 €): ~**6.250 €**
+
+    Coste 3er año (500.000 €): ~**6.250 €**
+
+  * Hipoteca unilateral: **7.500 € coste único**. Sin comisión recurrente.
+
+Ahorro ~ 21.250 € a favor de la hipoteca unilateral.
 
 ### Escenario C · Suspensión de 1.200.000 € durante litigio (estimado 4 años)
 
