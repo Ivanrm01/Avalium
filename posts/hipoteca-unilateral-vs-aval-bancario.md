@@ -14,10 +14,9 @@ lede: Cuando una sociedad necesita garantizar una deuda con la AEAT por encima
 featured: true
 featured_quote: '"La pregunta no es si tu banco te dará el aval. Es <em>a qué precio</em>."'
 related:
-  - slug: articulo-233-lgt-suspension-deudas
-    title: "El artículo 233 LGT explicado: cuándo y cómo suspender una deuda con la
-      AEAT"
-    tag: Procedimiento
+  - slug: coste-hipoteca-unilateral
+    title: "El coste real de una hipoteca unilateral: desglose y comparativa"
+    tag: Hipoteca Unilateral
     mins: 12 min
   - slug: aplazamiento-aeat-mas-de-30000
     title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
@@ -105,23 +104,11 @@ Un aval bancario consume CIRBE: queda registrado en la Central de Información d
 
 La hipoteca unilateral no consume CIRBE. Es una garantía real entre la sociedad y la AEAT, sin participación bancaria. Para empresas que dependen de financiación bancaria activa, este factor es a menudo más importante que el ahorro de coste.
 
-## Cuándo sigue siendo preferible el aval bancario
-
-Honestidad analítica: hay casos donde el aval bancario sigue siendo la mejor opción.
-
-* **Operaciones pequeñas y cortas** (menos de 100.000 € a 12 meses) donde el coste único de constitución de la hipoteca pesa más que la comisión bancaria acumulada.
-* **Empresas con excelente relación bancaria** que obtienen condiciones blandas de aval (0,3-0,5 % anual) y no tienen restricciones de CIRBE.
-* **Ausencia de patrimonio inmobiliario** propio o vinculado, donde no hay activo sobre el que constituir la hipoteca.
-* **Plazos extremadamente cortos** donde los 14-21 días de constitución hipotecaria no caben (situaciones de embargo inminente sin posibilidad de medidas cautelares).
-
-Fuera de estos cuatro supuestos, la hipoteca unilateral suele ser la opción técnica y económicamente superior.
-
 ## Conclusión práctica
 
 El cuadro decisional simplificado:
 
 * ¿Tienes inmueble libre o con margen? Sí → considera hipoteca unilateral.
-* ¿La operación supera 200.000 € o 24 meses? Sí → la hipoteca casi siempre gana.
 * ¿Necesitas preservar línea bancaria? Sí → hipoteca unilateral.
 * ¿El banco ya te ha denegado el aval? Sí → solo queda la hipoteca unilateral.
 
