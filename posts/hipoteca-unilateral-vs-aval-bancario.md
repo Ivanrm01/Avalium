@@ -62,21 +62,22 @@ Tomemos tres operaciones reales con importes representativos y plazos típicos. 
 
 Ahorro ~ 21.250 € a favor de la hipoteca unilateral.
 
-### Escenario C · Suspensión de 1.200.000 € durante litigio (estimado 4 años)
+### Escenario C · Suspensión de 1.050.000 € durante litigio (estimado 4 años)
 
-* Aval bancario: 9.600 € × 4 años = **38.400 €**. Más apertura: 1.500-2.500 €.
-* Hipoteca unilateral: **18.000 € coste único**.
+* Aval bancario: **73.500 €**
 
-Ahorro: en torno a 20.000 €.
+  Coste 1er año (1.050.000 €): ~**34.125 €** (21.000 € inicial + 13.125 € recurrente).
 
-### Escenario D · Suspensión de 2.000.000 € durante litigio largo (estimado 5 años)
+  Coste 2º año (1.050.000 €): ~**13.125 €**
 
-* Aval bancario: 16.000 € × 5 años = **80.000 €**. Más apertura: 2.500-4.000 €.
-* Hipoteca unilateral: **30.000 € coste único**.
+  Coste 3er año (1.050.000 €): ~**13.125 €**
 
-Ahorro: superior a 50.000 €.
+  Coste 4º año (1.050.000 €): ~**13.125 €**
+* Hipoteca unilateral: **15.750 € coste único**.
 
-> A partir de 500.000 € de importe garantizado y plazos superiores a 24 meses, la hipoteca unilateral es *siempre* económicamente superior al aval bancario. La duda solo cabe en operaciones de 100.000 € a 200.000 € con plazo corto.
+Ahorro: en torno a 57.750 €.
+
+> La hipoteca unilateral es *siempre* económicamente mejor al aval bancario. 
 
 ## Disponibilidad: lo que realmente decide
 
