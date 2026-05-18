@@ -37,7 +37,7 @@ En todos los escenarios, las garantías admitidas son las del orden de prelació
 
 ## Comparativa de coste sobre cuatro escenarios
 
-Tomemos cuatro operaciones reales con importes representativos y plazos típicos. Asumimos las siguientes comisiones: estudio/apertura (1%) + formalización (1%) + comisión por riesgo mientras el aval esté en vigor (0,5%-2%/anual (mercado 2026 para empresa con score medio) y coste de hipoteca unilateral del 1,5 % de constitución única.
+Tomemos tres operaciones reales con importes representativos y plazos típicos. Asumimos las siguientes comisiones: estudio/apertura (1%) + formalización (1%) + comisión por riesgo mientras el aval esté en vigor (0,5%-2%/anual (mercado 2026 para empresa con score medio) y coste de hipoteca unilateral del 1,5 % de constitución única.
 
 ### Escenario A · Aplazamiento de 100.000 € a 24 meses
 
