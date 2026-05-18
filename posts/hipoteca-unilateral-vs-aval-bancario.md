@@ -41,7 +41,11 @@ Tomemos cuatro operaciones reales con importes representativos y plazos típicos
 
 ### Escenario A · Aplazamiento de 100.000 € a 24 meses
 
-* Aval bancario: 800 € × 2 años = **1.600 €**. Más comisión de apertura típica: 200-400 €.
+* Aval bancario: **4.500 €**
+
+  Coste 1er año (100.000 €): ~**3.250 €** (2.000 € inicial + 1.250 € recurrente).
+
+  Coste 2º año (100.000 €): ~**1.250 €**
 * Hipoteca unilateral: **1.500 € coste único**. Sin comisión recurrente.
 
 Diferencia: aproximadamente equivalente. Aquí el factor decisivo es la *disponibilidad* : ¿el banco te concede el aval o no?
