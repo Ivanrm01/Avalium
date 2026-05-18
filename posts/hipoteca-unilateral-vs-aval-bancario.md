@@ -18,7 +18,7 @@ related:
     title: "El coste real de una hipoteca unilateral: desglose y comparativa"
     tag: Hipoteca Unilateral
     mins: 12 min
-  - slug: aplazamiento-aeat-mas-de-30000
+  - slug: aplazamiento-aeat-mas-de-50000
     title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
       no es la única vía"
     tag: Aplazamientos
