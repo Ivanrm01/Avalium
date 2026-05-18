@@ -86,7 +86,7 @@ Más allá del coste, la diferencia operativa más importante es la **disponibil
 * El score crediticio de la empresa.
 * El sector de actividad (los bancos tienen sectores penalizados — construcción, hostelería, automoción).
 * El consumo de línea ya existente con esa entidad.
-* La política de riesgos de la entidad en ese momento (volátil).
+* La política de riesgos de la entidad.
 
 La hipoteca unilateral depende de:
 
