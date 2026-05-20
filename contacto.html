@@ -230,6 +230,16 @@ async function submitForm(event) {
     button.innerHTML = originalText;
   }
 }
+<script>
+const reveals = document.querySelectorAll('.reveal');
+if (reveals.length) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+  reveals.forEach(el => observer.observe(el));
+}
 </script>
 <script src="assets/menu.js"></script>
 </body>
