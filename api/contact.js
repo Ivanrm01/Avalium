@@ -97,6 +97,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true });
   } catch (error) {
     console.error('Error enviando email:', error);
-    return res.status(500).json({ error: error.message || 'Error desconocido', code: error.code || '', command: error.command || '' });
+    return res.status(500).json({ error: 'Error al enviar el mensaje. Por favor contacta directamente a info@avalium.es' });
   }
 }
