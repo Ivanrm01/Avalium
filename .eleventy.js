@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("legal");
   eleventyConfig.addPassthroughCopy("*.html");
+  eleventyConfig.addPassthroughCopy("sitemap.xml");
+  eleventyConfig.addPassthroughCopy("robots.txt");
 
   eleventyConfig.addFilter("dateFormat", function(date) {
     if (!date) return '';
