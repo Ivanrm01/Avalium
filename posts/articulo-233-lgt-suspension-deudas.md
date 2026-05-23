@@ -8,7 +8,7 @@ summary: Cuándo procede la suspensión, qué garantías admite la AEAT y los
 lede: El precepto que separa una empresa viable de una empresa embargada.
   Análisis práctico del régimen de suspensión en vía económico-administrativa.
 related:
-  - slug: aplazamiento-aeat-mas-de-30000
+  - slug: aplazamiento-aeat-mas-de-50000
     title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
       no es la única vía"
     tag: Aplazamientos
