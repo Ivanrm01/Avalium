@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("*.html");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("favicon.ico");
 
   eleventyConfig.addFilter("dateFormat", function(date) {
     if (!date) return '';
