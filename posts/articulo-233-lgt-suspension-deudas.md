@@ -48,12 +48,6 @@ El supuesto excepcional. Los TEARs aplican criterio restrictivo: lo que para el 
 
 En la práctica, intentar la suspensión sin garantía cuando hay activos disponibles suele ser una pérdida de tiempo. Si tienes patrimonio inmobiliario, la [hipoteca unilateral](../hipoteca-unilateral.html) es el camino directo.
 
-## Suspensión cautelar mientras se resuelve la solicitud
-
-Un punto crítico que la práctica despacha mal: **la suspensión opera con carácter cautelar desde la fecha de presentación de la solicitud con garantía constituida** , no desde la fecha de resolución expresa del TEAR. Es decir, una vez constituida la hipoteca unilateral e inscrita, la solicitud paraliza la ejecución mientras el órgano se pronuncia.
-
-Esto es especialmente importante cuando hay providencia de apremio activa: cada día de retraso en la constitución de la garantía aumenta el riesgo de embargos efectivos sobre cuentas, créditos y bienes.
-
 ## Cinco errores frecuentes que invalidan la solicitud
 
 1. **Identificación incorrecta del acto suspendido** : confundir liquidación con providencia de apremio o con derivación. Cada acto exige su propia solicitud.
