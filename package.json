@@ -1,0 +1,14 @@
+{
+  "name": "avalium-website",
+  "version": "1.0.0",
+  "description": "Avalium Consulting Group website with Decap CMS",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@vercel/edge": "^1.2.1",
+    "nodemailer": "^6.9.16"
+  }
+}
