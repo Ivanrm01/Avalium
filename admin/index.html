@@ -1,16 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex">
-  <title>Avalium · Panel de administración</title>
-  <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Avalium · Panel de administración</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0A1F33; --navy-soft:#1A3247; --cream:#F5EFE3; --cream-deep:#EDE5D3;
+  --terracotta:#C75D2C; --brass:#B8895C; --muted:#9aa6b2; --line:rgba(255,255,255,.12);
+  --font-display:'Fraunces',serif; --font-body:'DM Sans',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--font-body);background:var(--cream);display:flex;flex-direction:column;overflow:hidden}
+
+.topbar{background:var(--navy);color:var(--cream);display:flex;align-items:center;gap:1.5rem;padding:0 clamp(1rem,3vw,2rem);height:62px;flex:0 0 auto;border-bottom:1px solid var(--line)}
+.topbar .brand{display:flex;align-items:center;gap:.7rem}
+.topbar .brand img{height:34px;width:auto}
+.topbar .brand .sep{width:1px;height:26px;background:var(--line)}
+.topbar .brand .label{font-family:var(--font-display);font-weight:500;font-size:.95rem;color:var(--cream);letter-spacing:.01em}
+
+.tabs{display:flex;gap:.3rem;margin-left:.5rem}
+.tabs button{display:flex;align-items:center;gap:.5rem;padding:.55rem .95rem;border-radius:9px;font-family:var(--font-body);font-weight:600;font-size:.9rem;color:var(--muted);background:transparent;transition:all .18s}
+.tabs button:hover{color:var(--cream)}
+.tabs button.on{background:var(--navy-soft);color:var(--cream)}
+.tabs button.on .dot{background:var(--terracotta)}
+.tabs button:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px}
+.tabs .dot{width:7px;height:7px;border-radius:50%;background:transparent}
+.tabs svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:2}
+
+.spacer{flex:1}
+.topbar .ext{font-size:.82rem;color:var(--muted);display:inline-flex;align-items:center;gap:.35rem;font-weight:500}
+.topbar .ext:hover{color:var(--cream)}
+.topbar .ext svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2}
+
+main{flex:1;position:relative;background:var(--cream)}
+.frame{position:absolute;inset:0;width:100%;height:100%;border:none;background:var(--cream)}
+.frame.hidden{display:none}
+
+/* Estado de carga */
+.loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--navy);font-family:var(--font-display);font-size:1rem;background:var(--cream)}
+.loading.hidden{display:none}
+
+@media(max-width:620px){
+  .topbar{gap:.6rem;padding:0 .8rem}
+  .topbar .brand .label{display:none}
+  .topbar .ext span{display:none}
+  .tabs button{padding:.5rem .7rem}
+}
+</style>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.4.0/dist/decap-cms.js"></script>
-  <script>
-    CMS.registerPreviewStyle("/styles.css");
-  </script>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="/assets/logo.png" alt="Avalium">
+      <div class="sep"></div>
+      <span class="label">Panel de administración</span>
+    </div>
+
+    <nav class="tabs" role="tablist" aria-label="Secciones del panel">
+      <button id="tab-blog" class="on" role="tab" aria-selected="true" aria-controls="f-blog">
+        <span class="dot"></span>
+        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Blog
+      </button>
+      <button id="tab-calc" role="tab" aria-selected="false" aria-controls="f-calc">
+        <span class="dot"></span>
+        <svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8" y2="10"/><line x1="12" y1="10" x2="12" y2="10"/><line x1="16" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="8" y2="14"/><line x1="12" y1="14" x2="12" y2="14"/><line x1="16" y1="14" x2="16" y2="18"/><line x1="8" y1="18" x2="12" y2="18"/></svg>
+        Calculadora de garantías
+      </button>
+    </nav>
+
+    <div class="spacer"></div>
+    <a class="ext" id="openTab" href="#" target="_blank" rel="noopener" title="Abrir la sección actual en una pestaña completa">
+      <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      <span>Abrir completa</span>
+    </a>
+    <a class="ext" href="/" target="_blank" rel="noopener" title="Ver la web pública">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      <span>Ver web</span>
+    </a>
+  </header>
+
+  <main>
+    <div class="loading" id="loading">Cargando…</div>
+    <iframe id="f-blog" class="frame" title="Gestión del blog" src="/admin/cms.html"></iframe>
+    <iframe id="f-calc" class="frame hidden" title="Calculadora de garantías" data-src="/admin/calculadora.html"></iframe>
+  </main>
+
+<script>
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var tabBlog=$('tab-blog'), tabCalc=$('tab-calc');
+  var fBlog=$('f-blog'), fCalc=$('f-calc'), loading=$('loading'), openTab=$('openTab');
+  var current='blog';
+
+  fBlog.addEventListener('load', function(){ if(current==='blog') loading.classList.add('hidden'); });
+  fCalc.addEventListener('load', function(){ if(current==='calc') loading.classList.add('hidden'); });
+
+  function show(which){
+    current=which;
+    var blog = which==='blog';
+    tabBlog.classList.toggle('on', blog); tabBlog.setAttribute('aria-selected', blog);
+    tabCalc.classList.toggle('on', !blog); tabCalc.setAttribute('aria-selected', !blog);
+    fBlog.classList.toggle('hidden', !blog);
+    fCalc.classList.toggle('hidden', blog);
+    // Carga diferida del iframe de la calculadora la primera vez
+    if(!blog && !fCalc.src){ loading.classList.remove('hidden'); fCalc.src = fCalc.dataset.src; }
+    else { loading.classList.add('hidden'); }
+    openTab.href = blog ? '/admin/cms.html' : '/admin/calculadora.html';
+  }
+
+  tabBlog.addEventListener('click', function(){ show('blog'); });
+  tabCalc.addEventListener('click', function(){ show('calc'); });
+  openTab.href = '/admin/cms.html';
+})();
+</script>
 </body>
 </html>
