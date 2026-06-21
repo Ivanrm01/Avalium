@@ -454,7 +454,7 @@ var LOGO_W = 520, LOGO_H = 224;
     moneyRow(estado.tasTxt, estado.tasVal, {bold:true,color:TERRA});
     r++;
     ws.mergeCells('A'+r+':B'+r); var nc=ws.getCell('A'+r); nc.value=estado.res.nota; nc.font={italic:true,size:9,color:{argb:MUTED}}; nc.alignment={wrapText:true,vertical:'top'}; ws.getRow(r).height=64; r+=2;
-    ws.mergeCells('A'+r+':B'+r); var fc=ws.getCell('A'+r); fc.value='Avalium Consulting Group, S.L.  ·  Cálculo orientativo, no constituye asesoramiento jurídico.'; fc.font={size:8,color:{argb:MUTED}};
+    ws.mergeCells('A'+r+':B'+r); var fc=ws.getCell('A'+r); fc.value='Avalium Consulting Group, S.L.  ·  info@avalium.es'; fc.font={size:8,color:{argb:MUTED}};
 
     var buf = await wb.xlsx.writeBuffer();
     var blob = new Blob([buf], {type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
