@@ -59,15 +59,15 @@ Ha bajado la barrera formal (quién firma), pero no la barrera técnica (qué di
 
 Es tentador leer este cambio como *"ahora aplazar con un inmueble es más fácil"*. La lectura correcta es otra: ahora hay **más vías para acreditar el valor**, pero la responsabilidad de que la garantía funcione recae más que nunca en cómo se estructura.
 
-Una garantía inmobiliaria frente a la AEAT no es solo una tasación. Es un encaje entre el importe a garantizar, el inmueble disponible, sus cargas, los plazos del procedimiento y la forma jurídica de la garantía —habitualmente, una [hipoteca unilateral a favor de la AEAT](/hipoteca-unilateral-a-favor-de-la-aeat)—. Cualquiera de esas piezas mal calibrada puede tumbar una solicitud que, sobre el papel, parecía viable. No todas las deudas necesitan el mismo aval: algunas necesitan estructura.
+Una garantía inmobiliaria frente a la AEAT no es solo una tasación. Es un encaje entre el importe a garantizar, el inmueble disponible, sus cargas, los plazos del procedimiento y la forma jurídica de la garantía —habitualmente, una [hipoteca unilateral a favor de la AEAT](/hipoteca-unilateral)—. Cualquiera de esas piezas mal calibrada puede tumbar una solicitud que, sobre el papel, parecía viable. No todas las deudas necesitan el mismo aval: algunas necesitan estructura.
 
 ## Qué significa para ti, según tu situación
 
-**Tienes una empresa o eres autónomo con un inmueble y una deuda por encima de 50.000 €.** El límite exento de garantía sigue en 50.000 €; por encima, necesitas respaldar [el aplazamiento o el fraccionamiento](/servicios/aplazar-fraccionar-deuda-aeat-sin-aval). La buena noticia es que ahora tienes más margen para acreditar el valor del inmueble sin depender de un único registro de tasadores. La clave está en presentar una valoración completa y una garantía bien construida.
+**Tienes una empresa o eres autónomo con un inmueble y una deuda por encima de 50.000 €.** El límite exento de garantía sigue en 50.000 €; por encima, necesitas respaldar [el aplazamiento o el fraccionamiento](/aplazamiento-fraccionamiento-aeat). La buena noticia es que ahora tienes más margen para acreditar el valor del inmueble sin depender de un único registro de tasadores. La clave está en presentar una valoración completa y una garantía bien construida.
 
 **El banco no te concede aval o sus condiciones no te compensan.** Tu patrimonio inmobiliario puede responder donde no responde el banco. Esta flexibilización abarata y desbloquea una vía que ya existía. Cuando el banco no avala, el inmueble puede hacerlo.
 
-**Eres asesor fiscal o abogado y llevas el caso de un cliente.** El cambio te da más opciones para acreditar el valor del bien, pero también más responsabilidad sobre la calidad técnica del informe y de la garantía. Si necesitas un [socio técnico](/para-asesores-y-despachos) para la parte de garantía inmobiliaria, trabajamos contigo, no contra ti: tú mantienes la relación con tu cliente; nosotros estructuramos la garantía.
+**Eres asesor fiscal o abogado y llevas el caso de un cliente.** El cambio te da más opciones para acreditar el valor del bien, pero también más responsabilidad sobre la calidad técnica del informe y de la garantía. Si necesitas un [socio técnico](/sobre-nosotros) para la parte de garantía inmobiliaria, trabajamos contigo, no contra ti: tú mantienes la relación con tu cliente; nosotros estructuramos la garantía.
 
 ## Cómo te ayuda Avalium
 
@@ -83,4 +83,4 @@ No prometemos que la AEAT acepte automáticamente. Prometemos análisis honesto,
 
 Solicita un **análisis preliminar de viabilidad**. Te diremos si tu caso encaja, qué pasos seguir y qué riesgos tiene —antes de iniciar ningún trámite.
 
-**[Solicitar análisis de viabilidad →](/solicitar-analisis-de-viabilidad)**
+**[Solicitar análisis de viabilidad →](/contacto)**
