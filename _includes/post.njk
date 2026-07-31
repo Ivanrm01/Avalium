@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title }}",
+  "datePublished": "{{ page.date.toISOString() }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ author or 'Equipo Avalium' }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Avalium Consulting Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.avalium.es/assets/logo.png"
+    }
+  },
+  "mainEntityOfPage": "https://www.avalium.es{{ page.url }}"
+}
+</script>
 <head>
 <meta charset="UTF-8">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
