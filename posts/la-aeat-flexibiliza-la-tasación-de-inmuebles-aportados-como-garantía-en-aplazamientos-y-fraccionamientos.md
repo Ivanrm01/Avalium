@@ -1,5 +1,5 @@
 ---
-title: La AEAT flexibiliza la tasación de inmuebles aportados como garantía en
+title: La AEAT flexibiliza la tasacion de inmuebles aportados como garantia en
   aplazamientos y fraccionamientos
 tag: Aplazamientos
 date: 2026-07-31
