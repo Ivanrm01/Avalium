@@ -18,8 +18,6 @@ related:
       no es la única vía"
     tag: Aplazamientos
 ---
-El 7 de abril de 2026 la Agencia Tributaria aprobó la Instrucción 1/2026, que modifica la Instrucción 1/2023 sobre garantías. Para **aplazar o fraccionar** una deuda con un inmueble, la AEAT ya no exige que la tasación la firme un tasador inscrito en un registro oficial: pasa a ser preferente, no obligatorio. En las **suspensiones** de deudas recurridas, la exigencia se mantiene. La barrera formal baja; la barrera técnica de la valoración, no.
-
 El 7 de abril de 2026, la Agencia Tributaria publicó la Instrucción 1/2026, que modifica la Instrucción 1/2023 sobre las garantías necesarias para aplazar o fraccionar una deuda tributaria y para suspender actos administrativos recurridos. El cambio es concreto, pero relevante para cualquier empresa o autónomo que quiera ofrecer un inmueble como garantía: la AEAT deja de exigir, como requisito indispensable, que la tasación la realice una empresa o un profesional inscrito en un registro oficial de tasadores.
 
 No es un matiz menor. Hasta ahora esa exigencia encarecía el procedimiento y, en algunos casos, lo bloqueaba. A partir de ahora, para aplazamientos y fraccionamientos, el tasador inscrito pasa a ser **preferente, no obligatorio**.
@@ -35,7 +33,7 @@ La Instrucción 1/2026 corrige ese exceso y distingue ahora con claridad entre d
 - **Aplazamientos y fraccionamientos.** La tasación se hará *"preferentemente"* por un tasador inscrito, pero puede realizarla otro perito con titulación suficiente. La falta de inscripción ya no determina, por sí sola, el rechazo de la solicitud.
 - **Suspensiones de actos administrativos recurridos.** Se mantiene la exigencia más estricta: cuando existe un registro especializado, la tasación debe encargarse a un profesional inscrito.
 
-Dicho de otro modo: la flexibilidad llega a quien quiere **ganar tiempo de pago** (aplazar o fraccionar), no a quien quiere [paralizar la ejecución](/servicios/suspender-deuda-parar-embargos-aeat) de una deuda que discute (suspender). Es una distinción técnica que conviene tener clara antes de elegir estrategia.
+Dicho de otro modo: la flexibilidad llega a quien quiere **ganar tiempo de pago** (aplazar o fraccionar), no a quien quiere [paralizar la ejecución](/suspension-deudas-aeat) de una deuda que discute (suspender). Es una distinción técnica que conviene tener clara antes de elegir estrategia.
 
 ## Por qué la AEAT ha tenido que rectificar
 
