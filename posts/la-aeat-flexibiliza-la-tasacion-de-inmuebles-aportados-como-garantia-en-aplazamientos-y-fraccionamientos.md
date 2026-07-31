@@ -43,7 +43,7 @@ Los reglamentos de recaudación —el artículo 46.4 del RGR para aplazamientos 
 
 La impugnación partió, de hecho, de la propia asociación de asesores fiscales, lo que da idea de hasta qué punto el requisito estaba lastrando casos reales. La AEAT se ha limitado a ejecutar el fallo: la Instrucción 1/2026 entró en vigor el **8 de abril de 2026** y se aplica a **todas las solicitudes en tramitación** en esa fecha.
 
-## Lo que NO ha cambiado (y es lo que de verdad decide tu caso)
+## Lo que NO ha cambiado
 
 Aquí conviene no leer la noticia con optimismo ingenuo. Que ya no necesites un tasador inscrito no significa que cualquier valoración valga. La AEAT mantiene intacta su capacidad de rechazar una garantía si la tasación no es técnicamente sólida.
 
