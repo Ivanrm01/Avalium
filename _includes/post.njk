@@ -33,7 +33,7 @@
 
 <!-- Open Graph (LinkedIn, WhatsApp, Facebook, Telegram) -->
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://www.avalium.es{{ page.url }}">
+  <meta property="og:url" content="https://www.avalium.es{{ page.url | replace(".html", "") }}">
   <meta property="og:title" content="{{ title }} | Avalium">
   <meta property="og:description" content="{{ lede | striptags | truncate(155) }}">
   <meta property="og:image" content="https://avalium.es/assets/og-image.jpg">
