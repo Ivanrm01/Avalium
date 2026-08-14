@@ -99,7 +99,7 @@ Esta es la situación que bloquea a muchas empresas solventes: tienen patrimonio
 
 La buena noticia es que el aval bancario no es la única garantía admitida. También lo son el seguro de caución, la prenda y, sobre todo, la **hipoteca sobre un inmueble**. Si tienes un inmueble con valor suficiente, puedes ofrecerlo como garantía mediante una [hipoteca unilateral a favor de la AEAT](/hipoteca-unilateral) y aplazar la deuda sin depender del banco. Es la vía que trabajamos en Avalium para [aplazar o fraccionar sin aval bancario](/aplazamiento-fraccionamiento-aeat).
 
-Además, desde abril de 2026 [una sentencia obligó a la AEAT a flexibilizar la tasación de esos inmuebles](/blog/la-aeat-flexibiliza-la-tasacion-de-inmuebles-aportados-como-garantia-en-aplazamientos-y-fraccionamient): ya no hace falta un tasador inscrito en un registro oficial para aplazamientos y fraccionamientos, lo que amplía las formas de acreditar el valor del bien.
+Además, desde abril de 2026 [una sentencia obligó a la AEAT a flexibilizar la tasación de esos inmuebles](/blog/la-aeat-flexibiliza-la-tasacion-de-inmuebles-aportados-como-garantia-en-aplazamientos-y-fraccionamiento): ya no hace falta un tasador inscrito en un registro oficial para aplazamientos y fraccionamientos, lo que amplía las formas de acreditar el valor del bien.
 
 Cuando el banco no avala, el inmueble puede responder. La clave está en estructurar bien la garantía para que la AEAT la acepte.
 
