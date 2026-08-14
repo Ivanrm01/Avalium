@@ -47,7 +47,6 @@ Pero hay deudas que la ley declara **inaplazables**. Las principales:
 - **Retenciones e ingresos a cuenta** (por ejemplo, el IRPF de las nóminas de tus trabajadores).
 - **Pagos fraccionados del Impuesto sobre Sociedades** (Modelo 202).
 - **IVA repercutido y efectivamente cobrado**: solo es aplazable si acreditas que no has cobrado esas cuotas.
-- Deudas derivadas de **resoluciones firmes desestimatorias** que hubieran estado suspendidas.
 
 Si tu deuda entra en alguno de estos grupos, la solicitud se denegará. Conviene comprobarlo **antes** de iniciar el trámite.
 
