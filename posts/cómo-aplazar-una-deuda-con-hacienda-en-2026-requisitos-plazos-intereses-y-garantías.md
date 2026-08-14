@@ -23,7 +23,7 @@ related:
     title: "Aplazamiento denegado: cómo recurrir"
     tag: Aplazamientos
 ---
-> **En 30 segundos.** Si no puedes pagar una deuda con Hacienda en plazo, puedes pedir aplazarla o fraccionarla (art. 65 de la Ley General Tributaria). Hasta **50.000 €** —sumando todas tus deudas aplazadas sin garantía— el trámite es casi automático por la sede electrónica y **no necesitas aval**. Por encima, la AEAT te pedirá una garantía. Aplazar genera intereses (**4,0625 %** de demora en 2026, o 3,25 % si aportas aval o seguro de caución). Y ojo: no todas las deudas se pueden aplazar.
+> Si no puedes pagar una deuda con Hacienda en plazo, puedes pedir aplazarla o fraccionarla (art. 65 de la Ley General Tributaria). Hasta **50.000 €** —sumando todas tus deudas aplazadas sin garantía— el trámite es casi automático por la sede electrónica y **no necesitas aval**. Por encima, la AEAT te pedirá una garantía. Aplazar genera intereses (**4,0625 %** de demora en 2026, o 3,25 % si aportas aval o seguro de caución). Y ojo: no todas las deudas se pueden aplazar.
 
 No poder pagar a Hacienda a tiempo no significa un embargo automático. La Ley General Tributaria reconoce el derecho a solicitar el aplazamiento o el fraccionamiento de una deuda tributaria cuando tu situación económica te impide pagarla de forma puntual. Es un mecanismo habitual y, para importes pequeños, sencillo. Pero tiene reglas, límites y costes que conviene conocer antes de solicitarlo, sobre todo cuando la deuda es alta o cuando el banco no te concede aval.
 
