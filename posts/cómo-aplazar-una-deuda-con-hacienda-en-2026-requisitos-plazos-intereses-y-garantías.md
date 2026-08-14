@@ -108,7 +108,7 @@ Cuando el banco no avala, el inmueble puede responder. La clave está en estruct
 Un error frecuente es creer que aplazar y recurrir una deuda son la misma decisión. No lo son:
 
 - **Aplazar** implica que **aceptas** la deuda y solo necesitas tiempo o cuotas para pagarla.
-- Si lo que quieres es **discutir** la deuda (recurrirla o reclamarla), aplazar no es tu herramienta. Recurrir, por sí solo, **no paraliza** el cobro. Para frenar la ejecución mientras discutes, necesitas [solicitar la suspensión con garantía](/servicios/suspender-deuda-parar-embargos-aeat), que es un procedimiento distinto y con requisitos más estrictos.
+- Si lo que quieres es **discutir** la deuda (recurrirla o reclamarla), aplazar no es tu herramienta. Recurrir, por sí solo, **no paraliza** el cobro. Para frenar la ejecución mientras discutes, necesitas [solicitar la suspensión con garantía](/suspension-deudas-aeat), que es un procedimiento distinto y con requisitos más estrictos.
 
 Confundir ambas vías cuesta tiempo y dinero. Antes de decidir, ten claro qué buscas: ganar tiempo de pago, o parar la ejecución de algo que discutes.
 
@@ -122,4 +122,4 @@ Aplazar una deuda con Hacienda es un derecho y, para importes por debajo de 50.0
 
 Si tienes un inmueble que podría servir de garantía, solicita un **análisis preliminar de viabilidad**. Revisamos tu deuda, la fase del procedimiento y el inmueble disponible, y te decimos con claridad si la garantía será suficiente y aceptable para la AEAT —antes de iniciar ningún trámite. Si tu caso no encaja, te lo diremos.
 
-**[Solicitar análisis de viabilidad →](/solicitar-analisis-de-viabilidad)**
+**[Solicitar análisis de viabilidad →](/contacto)**
