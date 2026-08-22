@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# No indexar el panel de administración ni los endpoints internos
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.avalium.es/sitemap.xml
