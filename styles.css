@@ -1248,6 +1248,6 @@ p { font-size: 1rem; line-height: 1.7; color: var(--ink); }
 
 @media (max-width: 340px) {
    
-   .logo { height: 44px;}
+   .logo { height: 60px;}
 
 }
