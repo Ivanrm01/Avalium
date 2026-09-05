@@ -1,0 +1,152 @@
+backend:
+  name: github
+  repo: Ivanrm01/Avalium
+  branch: main
+  base_url: https://www.avalium.es
+  auth_endpoint: api/auth
+
+# Carpeta donde se subirán las imágenes que arrastres al editor
+media_folder: "assets/blog"
+public_folder: "/assets/blog"
+
+# Idioma del panel
+locale: 'es'
+
+# Estructura del contenido editable
+collections:
+  - name: "blog"
+    label: "Artículos del blog"
+    label_singular: "artículo"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date | date('DD/MM/YYYY')}}"
+    sortable_fields: ['date', 'title']
+    fields:
+      # ---------------------------------------------------------------
+      # CONTENIDO
+      # ---------------------------------------------------------------
+      - label: "Título"
+        name: "title"
+        widget: "string"
+        hint: "El H1 del artículo. Idealmente entre 50 y 65 caracteres, con la palabra clave principal lo más al principio posible. Ejemplo: «Aplazamiento AEAT de más de 50.000 €: qué garantía aceptan»"
+
+      - { label: "Categoría", name: "tag", widget: "select", options: ["Hipoteca unilateral", "Procedimiento", "Aplazamientos", "Recursos", "Derivaciones", "Societario", "Suspensión AEAT", "Ampliación de capital"] }
+
+      - { label: "Fecha de publicación", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, picker_utc: false }
+
+      - label: "Fecha de última actualización"
+        name: "updated"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "DD/MM/YYYY"
+        time_format: false
+        picker_utc: false
+        required: false
+        hint: "Rellénala cada vez que revises un artículo antiguo. Google la usa como señal de frescura y la muestra en los resultados. Es una de las acciones con más impacto para mantener posiciones."
+
+      - label: "Autor"
+        name: "author"
+        widget: "string"
+        required: false
+        hint: "Nombre y apellidos del abogado que firma. Si lo dejas vacío se publica como «Equipo Avalium». Firmar con una persona real mejora las señales E-E-A-T (experiencia y autoridad) que Google valora en contenido jurídico y financiero."
+
+      - { label: "Tiempo de lectura", name: "reading_time", widget: "string", required: false, default: "8 min", hint: "Ejemplo: 8 min. Si lo dejas vacío se calcula solo a partir del texto." }
+
+      - { label: "Resumen para el índice del blog", name: "summary", widget: "text", required: false, hint: "Frase corta (1-2 líneas) que aparece en la tarjeta del artículo en /blog. Si la dejas vacía, se usará el lede." }
+
+      - { label: "Resumen (lede)", name: "lede", widget: "text", hint: "Frase introductoria que aparece en grande al principio del artículo. Debe responder a la intención de búsqueda en la primera línea." }
+
+      - label: "Contenido del artículo"
+        name: "body"
+        widget: "markdown"
+        hint: "Estructura recomendada: respuesta directa en el primer párrafo, luego H2 por cada subpregunta y H3 para los matices. Los H2 y H3 generan automáticamente el índice y los enlaces de salto."
+
+      # ---------------------------------------------------------------
+      # SEO
+      # ---------------------------------------------------------------
+      - label: "SEO · Título para Google"
+        name: "seo_title"
+        widget: "string"
+        required: false
+        pattern: ['^.{0,62}$', 'Máximo 62 caracteres para que no se corte en Google']
+        hint: "Opcional. Solo si quieres que el título en Google sea distinto del H1 (por ejemplo, más corto o con otra palabra clave). Se le añade « | Avalium» al final. Si lo dejas vacío se usa el título del artículo."
+
+      - label: "SEO · Meta descripción"
+        name: "meta_description"
+        widget: "text"
+        required: false
+        pattern: ['^.{0,155}$', 'Máximo 155 caracteres']
+        hint: "El texto que aparece bajo el título en Google. 140-155 caracteres, con la palabra clave y una razón para hacer clic (una cifra, un plazo, una consecuencia). Si lo dejas vacío se usa el resumen."
+
+      - label: "SEO · Palabra clave principal"
+        name: "focus_keyword"
+        widget: "string"
+        required: false
+        hint: "Solo para tu control interno; no se publica. Escribe la búsqueda exacta que quieres ganar (ej.: «aplazamiento hacienda más de 50000»). Compruébala en el título, en el primer párrafo, en un H2 y en la URL."
+
+      - label: "SEO · Imagen para redes y buscadores"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "Opcional. 1200x630 px. Es la miniatura al compartir en LinkedIn o WhatsApp. Si la dejas vacía se usa la imagen genérica de Avalium."
+
+      - label: "SEO · Texto alternativo de la imagen"
+        name: "image_alt"
+        widget: "string"
+        required: false
+        hint: "Describe la imagen en una frase. Accesibilidad y SEO de imágenes."
+
+      - label: "SEO · Preguntas frecuentes"
+        name: "faq"
+        widget: "list"
+        required: false
+        label_singular: "pregunta"
+        hint: "Muy recomendable: 3-5 preguntas. Se publican como bloque desplegable al final del artículo y generan el marcado FAQPage, que es lo que permite aparecer en las respuestas destacadas de Google. Escribe la pregunta tal y como la teclearía un cliente."
+        fields:
+          - { label: "Pregunta", name: "pregunta", widget: "string" }
+          - { label: "Respuesta", name: "respuesta", widget: "text", hint: "Respuesta directa en 2-4 frases. La primera frase debe contestar sin rodeos." }
+
+      - label: "SEO · Mostrar índice del artículo"
+        name: "toc"
+        widget: "boolean"
+        default: true
+        required: false
+        hint: "Genera automáticamente el índice a partir de los H2 y H3. Aparece si el artículo tiene 3 o más apartados. Facilita que Google muestre enlaces de salto en los resultados."
+
+      - label: "SEO · No indexar este artículo"
+        name: "noindex"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Actívalo solo para borradores públicos o contenido que no quieras que aparezca en Google. También lo excluye del sitemap."
+
+      - label: "SEO · URL canónica alternativa"
+        name: "canonical"
+        widget: "string"
+        required: false
+        hint: "Solo si este texto se publicó antes en otro sitio. Pega aquí la URL original para evitar contenido duplicado. En un artículo propio déjalo vacío."
+
+      # ---------------------------------------------------------------
+      # PORTADA Y ENLACES
+      # ---------------------------------------------------------------
+      - label: "¿Es el artículo destacado?"
+        name: "featured"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Si lo marcas, aparecerá en grande en la parte superior del blog. Solo puede haber un destacado a la vez — el sistema usará el primero que encuentre marcado."
+
+      - { label: "Frase destacada (cita visual del destacado)", name: "featured_quote", widget: "string", required: false, hint: "Solo si marcas el artículo como destacado. Aparece como cita en el bloque visual de la izquierda. Ejemplo: \"La pregunta no es si tu banco te dará el aval. Es a qué precio.\"" }
+
+      - label: "Artículos relacionados (al final)"
+        name: "related"
+        widget: "list"
+        max: 3
+        required: false
+        hint: "Opcional. Si lo dejas vacío, el sistema elige solo tres artículos de la misma categoría. Rellénalo cuando quieras dirigir el enlazado interno hacia un artículo concreto."
+        fields:
+          - { label: "Slug del artículo (sin .html)", name: "slug", widget: "string" }
+          - { label: "Título a mostrar", name: "title", widget: "string" }
+          - { label: "Categoría", name: "tag", widget: "string" }
+          - { label: "Tiempo lectura", name: "mins", widget: "string", default: "8 min" }
