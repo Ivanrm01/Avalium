@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Avalium · Blog (CMS)</title>
+  <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+
+  <style>
+  /* ==================================================================
+     ADAPTACIÓN DEL CMS A MÓVIL
+
+     Decap genera sus clases con Emotion y les añade siempre el nombre
+     del componente al final (por ejemplo css-1a2b3c-EditorContainer),
+     así que se puede apuntar a ellas con [class*="-Componente"].
+     ================================================================== */
+  @media (max-width: 900px) {
+
+    /* Decap obliga al editor y a su barra superior a medir 800px como
+       mínimo. Eso es lo que hace que en el móvil todo salga diminuto y
+       con desplazamiento lateral. */
+    [class*="-EditorContainer"],
+    [class*="-ToolbarContainer"] { min-width: 0 !important; }
+
+    /* Barra superior del editor: se recorta lo prescindible para que
+       quepan el botón de volver, guardar y publicar. */
+    [class*="-ToolbarSectionBackLink"] { padding: 0 12px !important; }
+    [class*="-ToolbarSectionMain"] { padding: 0 4px !important; }
+    [class*="-ToolbarSectionMeta"] { padding: 0 4px !important; }
+    [class*="-BackCollection"] { display: none !important; }
+
+    /* Vista previa: se oculta y el formulario ocupa todo el ancho.
+       (Además arranca desactivada; ver el script de más abajo.) */
+    .SplitPane { position: static !important; }
+    .SplitPane .Pane1 {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+    }
+    .SplitPane .Pane2,
+    .SplitPane .Resizer { display: none !important; }
+
+    /* Ojo: hay dos componentes distintos con la etiqueta
+       ControlPaneContainer. El de fuera va compuesto con
+       PreviewPaneContainer y ocupa el alto completo (no se le puede
+       tocar el relleno vertical); el de dentro es el formulario. */
+    [class*="-PreviewPaneContainer"][class*="-ControlPaneContainer"] {
+      padding: 0 8px !important;
+    }
+    [class*="-ControlPaneContainer"]:not([class*="-PreviewPaneContainer"]) {
+      max-width: 100% !important;
+      padding-bottom: 32px !important;
+    }
+
+    /* Listado de artículos: las tarjetas miden 682px fijos por defecto. */
+    [class*="-CardsGrid"] { margin-left: 0 !important; }
+    [class*="-ListCard"] {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+    [class*="-GridCard"] {
+      flex: 1 1 100% !important;
+      margin-left: 0 !important;
+      height: auto !important;
+      min-height: 180px;
+    }
+    [class*="-SectionSeparator"] {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+
+    /* iOS amplía la página al enfocar cualquier campo de menos de 16px */
+    input, textarea, select { font-size: 16px !important; }
+
+    /* Objetivos táctiles algo más grandes en la barra de formato */
+    [class*="-ToolbarButton"] { padding: 6px !important; }
+  }
+  </style>
+</head>
+<body>
+
+  <script>
+  (function () {
+    /* Decap recuerda en localStorage si el panel de vista previa está
+       abierto. En el móvil se abre cerrado: con la pantalla partida en
+       dos no hay sitio para escribir. Al volver al ordenador se
+       restaura el comportamiento normal, salvo que allí ya lo hubieras
+       cerrado tú a mano. */
+    try {
+      var CLAVE = 'cms.preview-visible';
+      var MARCA = 'avalium.vista-previa-desactivada-en-movil';
+      if (window.matchMedia('(max-width: 900px)').matches) {
+        if (localStorage.getItem(CLAVE) !== 'false') localStorage.setItem(MARCA, '1');
+        localStorage.setItem(CLAVE, 'false');
+      } else if (localStorage.getItem(MARCA) === '1') {
+        localStorage.removeItem(CLAVE);
+        localStorage.removeItem(MARCA);
+      }
+    } catch (e) { /* navegador sin localStorage: se sigue igualmente */ }
+  })();
+  </script>
+
+  <script src="https://unpkg.com/decap-cms@^3.4.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.registerPreviewStyle("/styles.css");
+  </script>
+</body>
+</html>
