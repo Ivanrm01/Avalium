@@ -2,12 +2,18 @@
 title: "Derivaciones de responsabilidad del Art. 42 LGT: qué hacer si te llega una"
 tag: Derivaciones
 date: 2026-03-04
+author: Equipo Avalium
 reading_time: 11 min
 summary: Cómo se construye la defensa frente a una derivación solidaria del Art.
   42.2.a y por qué la suspensión cautelar es crítica.
 lede: "Una de las situaciones más estresantes para un administrador: recibir un
   acuerdo que te hace responsable solidario de deudas de tu empresa o de un
   tercero. Marco legal y respuesta procedimental."
+seo_title: Derivación de responsabilidad (art. 42 LGT)
+meta_description: "Derivación de responsabilidad del artículo 42 LGT: cuándo
+  Hacienda te reclama como responsable solidario y cómo defenderte de la deuda
+  derivada."
+focus_keyword: derivación de responsabilidad artículo 42 LGT.
 related:
   - slug: coste-hipoteca-unilateral
     title: "El coste real de una hipoteca unilateral: desglose y comparativa"
