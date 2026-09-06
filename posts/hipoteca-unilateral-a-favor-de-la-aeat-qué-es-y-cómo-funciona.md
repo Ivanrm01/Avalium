@@ -47,7 +47,7 @@ related:
     title: La AEAT flexibiliza la tasación de inmuebles como garantía
     tag: Aplazamientos
 ---
-a constituyes tú, sobre un inmueble propio, y respalda un aplazamiento, un fraccionamiento o la suspensión de una deuda tributaria con Hacienda, sin aval bancario. No es un préstamo ni te da liquidez: convierte un inmueble que ya tienes en capacidad de negociación. Se firma ante notario, se inscribe en el Registro y, en principio, está **exenta de AJD**. Es la vía habitual cuando el banco no avala o su coste no compensa.
+La constituyes tú, sobre un inmueble propio, y respalda un aplazamiento, un fraccionamiento o la suspensión de una deuda tributaria con Hacienda, sin aval bancario. No es un préstamo ni te da liquidez: convierte un inmueble que ya tienes en capacidad de negociación. Se firma ante notario, se inscribe en el Registro y, en principio, está **exenta de AJD**. Es la vía habitual cuando el banco no avala o su coste no compensa.
 
 Cuando una empresa o un autónomo no puede pagar a Hacienda en plazo, o quiere recurrir una deuda sin que la ejecución avance, casi siempre necesita una garantía. La primera opción que se le ocurre a todo el mundo es el aval bancario. Pero el aval no siempre está disponible: el banco no lo concede, exige condiciones caras o consume una línea de crédito que hace falta para otra cosa.
 
@@ -69,8 +69,8 @@ Conviene entender bien tres ideas:
 
 La hipoteca unilateral a favor de la AEAT tiene tres usos principales:
 
-- **Garantizar un aplazamiento o fraccionamiento** de una deuda tributaria cuando esta supera el umbral que exige garantía. Si tu deuda pasa de 50.000 € y necesitas [aplazar o fraccionar](/blog/aplazar-deuda-con-hacienda), la AEAT te pedirá una garantía, y el inmueble puede serlo.
-- **Suspender la ejecución de una deuda recurrida.** Recurrir, por sí solo, no paraliza el cobro. Para [frenar el embargo o el apremio](/servicios/suspender-deuda-parar-embargos-aeat) mientras discutes la deuda, necesitas aportar garantía suficiente, y la hipoteca unilateral sirve para ello.
+- **Garantizar un aplazamiento o fraccionamiento** de una deuda tributaria cuando esta supera el umbral que exige garantía. Si tu deuda pasa de 50.000 € y necesitas [aplazar o fraccionar](/aplazamiento-fraccionamiento-aeat), la AEAT te pedirá una garantía, y el inmueble puede serlo.
+- **Suspender la ejecución de una deuda recurrida.** Recurrir, por sí solo, no paraliza el cobro. Para [frenar el embargo o el apremio](/suspension-deudas-aeat) mientras discutes la deuda, necesitas aportar garantía suficiente, y la hipoteca unilateral sirve para ello.
 - **Sustituir una garantía más gravosa**, como un aval bancario que no te conceden o que resulta demasiado caro.
 
 Además de la AEAT, otras administraciones admiten esta figura: la Seguridad Social (TGSS) puede aceptarla para aplazar cotizaciones, y también se usa en procedimientos judiciales o administrativos.
