@@ -3,12 +3,17 @@ title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
   no es la única vía"
 tag: Aplazamientos
 date: 2026-02-05
+author: Equipo Avalium
 reading_time: 8 min
 summary: El umbral de 50.000 € cambia las reglas. Análisis de las garantías
   admitidas y cómo prepararlas para evitar denegaciones.
 lede: La Orden HFP/311/2023 actualizó al alza el umbral de exención de garantía,
   pero por encima de esa cifra, miles de empresas se topan cada año con la
   negativa de su banco. La hipoteca unilateral cubre exactamente ese hueco.
+seo_title: Aplazar deuda de más de 50.000 € con Hacienda
+meta_description: Si tu deuda con Hacienda supera los 50.000 €, necesitas
+  garantía para aplazar o fraccionar. Qué garantías acepta la AEAT.
+focus_keyword: aplazamiento hacienda más de 50000
 related:
   - slug: aplazamiento-denegado-recurso
     title: "Aplazamiento denegado: cómo recurrir y reformular la solicitud"
