@@ -2,12 +2,18 @@
 title: "Aplazamiento denegado: cómo recurrir"
 tag: Recursos
 date: 2026-02-19
+author: Equipo Avalium
 reading_time: 10 min
 summary: Las cuatro causas más frecuentes de denegación y la estrategia de
   recurso que mejor funciona ante cada una.
 lede: Una denegación de aplazamiento no es el final del camino. Es el momento de
   analizar el motivo, subsanar el defecto y, si procede, recurrir. Hoja de ruta
   práctica.
+seo_title: "Aplazamiento denegado por Hacienda: cómo recurrir"
+meta_description: "Hacienda te ha denegado el aplazamiento: qué plazos tienes
+  para recurrir, cómo evitar el apremio y qué alternativas quedan para no pagar
+  de golpe la deuda."
+focus_keyword: aplazamiento denegado hacienda
 related:
   - slug: aplazamiento-aeat-mas-de-50000
     title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
