@@ -9,6 +9,11 @@ summary: Análisis del coste fiscal real de aportar un inmueble a una SL y las
 lede: La operación que permite convertir patrimonio inmobiliario en solvencia
   societaria sin desembolso dinerario. Análisis técnico, fiscal y registral
   completo.
+seo_title: Ampliación de capital con aportación no dineraria
+meta_description: "Ampliación de capital con aportación no dineraria de un
+  inmueble: requisitos, valoración y fiscalidad para reforzar el patrimonio neto
+  de tu sociedad."
+focus_keyword: ampliación de capital con aportación no dineraria
 related: []
 ---
 ## La operación en su forma más simple
