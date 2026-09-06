@@ -9,6 +9,11 @@ summary: La Instrucción 1/2026 elimina la obligación de tasador inscrito para
   decidiendo tu caso.
 lede: Qué cambia con la Instrucción 1/2026, qué sigue igual y por qué la calidad
   de la garantía pesa ahora más que nunca.
+seo_title: Tasación de inmuebles como garantía (AEAT 2026)
+meta_description: La AEAT ya no exige tasador inscrito para garantizar
+  aplazamientos con un inmueble. Qué cambia con la Instrucción 1/2026 y qué
+  sigue decidiendo tu caso.
+focus_keyword: tasación inmueble garantía aplazamiento
 featured_quote: Ya no necesitas un tasador inscrito para aplazar con tu
   inmueble. Sigues necesitando una garantía que la AEAT acepte.
 related:
