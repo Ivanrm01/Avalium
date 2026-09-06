@@ -3,6 +3,7 @@ title: La AEAT flexibiliza la tasación de inmuebles aportados como garantía en
   aplazamientos y fraccionamientos
 tag: Aplazamientos
 date: 2026-07-31
+author: Equipo Avalium
 reading_time: 7 min
 summary: La Instrucción 1/2026 elimina la obligación de tasador inscrito para
   garantizar un aplazamiento con un inmueble. Te contamos qué cambia y qué sigue
