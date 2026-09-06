@@ -158,4 +158,4 @@ La hipoteca unilateral a favor de la AEAT es la vía técnica para convertir un 
 
 Solicita un **análisis preliminar de viabilidad**. Revisamos tu deuda, la fase del procedimiento, el inmueble y sus cargas, y te decimos con claridad si la hipoteca unilateral es suficiente y aceptable para Hacienda —antes de que gastes en notaría o tasación—. Si tu caso no encaja, te lo diremos.
 
-**[Solicitar análisis de viabilidad →](/solicitar-analisis-de-viabilidad)**
+**[Solicitar análisis de viabilidad →](/contacto)**
