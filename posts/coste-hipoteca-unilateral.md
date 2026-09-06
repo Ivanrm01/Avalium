@@ -2,12 +2,18 @@
 title: "El coste real de una hipoteca unilateral: desglose y comparativa"
 tag: Hipoteca unilateral
 date: 2026-04-02
+author: Equipo Avalium
 reading_time: 7 min
 summary: Desglose real con tasación, notaría, registro, AJD y honorarios para
   cuatro escenarios típicos. Sin letra pequeña.
 lede: Notaría, registro, AJD, tasación y honorarios. Análisis sin partidas
   ocultas para que sepas exactamente cuánto cuesta constituir una hipoteca
   unilateral antes de iniciar la operación.
+seo_title: Cuánto cuesta una hipoteca unilateral
+meta_description: "Cuánto cuesta una hipoteca unilateral a favor de la AEAT:
+  tasación, notaría y Registro, y por qué está exenta de AJD. El desglose de
+  gastos, sin sorpresas."
+focus_keyword: coste hipoteca unilateral
 related:
   - slug: aplazamiento-aeat-mas-de-50000
     title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
