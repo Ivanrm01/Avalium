@@ -9,6 +9,11 @@ summary: "Guía práctica para aplazar o fraccionar una deuda con Hacienda en
   concede aval. "
 lede: "No poder pagar a Hacienda a tiempo no significa un embargo automático.
   Puedes aplazar o fraccionar tu deuda. "
+seo_title: Cómo aplazar una deuda con Hacienda en 2026
+meta_description: "¿No puedes pagar a Hacienda? Guía 2026 para aplazar o
+  fraccionar tu deuda: límite de 50.000 € sin aval, plazos, intereses y qué
+  hacer si el banco no avala."
+focus_keyword: aplazar deuda con hacienda
 featured: false
 featured_quote: "Hasta 50.000 €, aplazar lo haces tú solo. A partir de ahí, todo
   depende de la garantía. "
