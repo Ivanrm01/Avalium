@@ -2,6 +2,7 @@
 title: "Ampliación de capital con aportación no dineraria de inmuebles: guía técnica"
 tag: Societario
 date: 2026-03-18
+author: Equipo Avalium
 reading_time: 14 min
 summary: Análisis del coste fiscal real de aportar un inmueble a una SL y las
   alternativas más eficientes en cada escenario.
