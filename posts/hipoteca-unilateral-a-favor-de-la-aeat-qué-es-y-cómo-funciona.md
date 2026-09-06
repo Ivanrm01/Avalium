@@ -47,7 +47,7 @@ related:
     title: La AEAT flexibiliza la tasación de inmuebles como garantía
     tag: Aplazamientos
 ---
-a constituyes tú, sobre un inmueble propio, y respalda un aplazamiento, un fraccionamiento o la suspensión de una deuda tributaria con Hacienda, sin aval bancario. No es un préstamo ni te da liquidez: convierte un inmueble que ya tienes en capacidad de negociación. Se firma ante notario, se inscribe en el Registro y, en principio, está \*\*exenta de AJD\*\*. Es la vía habitual cuando el banco no avala o su coste no compensa.
+La constituyes tú, sobre un inmueble propio, y respalda un aplazamiento, un fraccionamiento o la suspensión de una deuda tributaria con Hacienda, sin aval bancario. No es un préstamo ni te da liquidez: convierte un inmueble que ya tienes en capacidad de negociación. Se firma ante notario, se inscribe en el Registro y, en principio, está \*\*exenta de AJD\*\*. Es la vía habitual cuando el banco no avala o su coste no compensa.
 
 
 
