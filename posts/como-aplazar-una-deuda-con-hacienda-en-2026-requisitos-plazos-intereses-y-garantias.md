@@ -3,6 +3,7 @@ title: "Cómo aplazar una deuda con Hacienda en 2026: requisitos, plazos,
   intereses y garantías"
 tag: Aplazamientos
 date: 2026-08-14
+author: Equipo Avalium
 reading_time: 9 min
 summary: "Guía práctica para aplazar o fraccionar una deuda con Hacienda en
   2026: el límite de 50.000 €, plazos, intereses y qué hacer si el banco no te
