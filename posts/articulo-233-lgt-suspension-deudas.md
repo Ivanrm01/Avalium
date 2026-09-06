@@ -2,11 +2,17 @@
 title: "El artículo 233 LGT explicado: cuándo y cómo suspender una deuda con la AEAT"
 tag: Suspensión AEAT
 date: 2026-01-22
+author: Equipo Avalium
 reading_time: 12 min
 summary: Cuándo procede la suspensión, qué garantías admite la AEAT y los
   errores frecuentes que la convierten en denegación.
 lede: El precepto que separa una empresa viable de una empresa embargada.
   Análisis práctico del régimen de suspensión en vía económico-administrativa.
+seo_title: "Artículo 233 LGT: suspensión de deudas tributarias"
+meta_description: "Artículo 233 LGT: cómo suspender una deuda tributaria al
+  recurrir, qué garantía hace falta para frenar la ejecución y cuándo se puede
+  suspender sin ella."
+focus_keyword: artículo 233 LGT suspensión
 related:
   - slug: aplazamiento-aeat-mas-de-50000
     title: "Aplazar deudas AEAT por encima del umbral: por qué el aval bancario ya
