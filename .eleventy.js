@@ -337,6 +337,8 @@ module.exports = function (eleventyConfig) {
    * ---------------------------------------------------------------- */
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.ignores.add("GUIA-SEO-BLOG.md");
+  eleventyConfig.ignores.add("CAMBIOS-CONVERSION.md");
+  eleventyConfig.ignores.add("node_modules/**");
 
   return {
     dir: {
