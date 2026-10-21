@@ -28,7 +28,6 @@ function documentacion(r) {
   const docs = r.modo === 'suspension'
     ? [
       'Copia del acto recurrido (liquidación, derivación o providencia) y del recurso o reclamación presentados.',
-      'Escritura de hipoteca unilateral a favor de la AEAT (o documento de la garantía) e inscripción en el Registro.',
       'Tasación por sociedad o profesional inscrito en el registro oficial de tasadores (obligatorio en suspensiones).',
       'Nota simple actualizada del inmueble y, si hay cargas, certificado del saldo pendiente.',
       'Justificación de que no puedes obtener aval bancario ni seguro de caución (denegaciones por escrito).',
