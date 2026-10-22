@@ -114,4 +114,4 @@ El Supremo ha reforzado una garantía básica del contribuyente: Hacienda no pue
 
 Si necesitas suspender la liquidación mientras la discutes y tienes un inmueble que podría servir de garantía, solicita un **análisis preliminar de viabilidad**. Revisamos tu caso, la fase del procedimiento y el inmueble disponible, y te decimos con claridad qué opciones tienes —antes de iniciar ningún trámite.
 
-**[Solicitar análisis de viabilidad →](/solicitar-analisis-de-viabilidad)**
+**[Solicitar análisis de viabilidad →](/contacto)**
